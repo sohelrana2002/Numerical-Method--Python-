@@ -29,6 +29,7 @@ def bisection_method(f, a, b, tol):
 
 #diver code
 z = bisection_method(f, 1.5, 2, 1e-6)
+print(z)
 c = f(z)
 print(c)
 print(f"{c: .4f}")
