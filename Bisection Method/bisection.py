@@ -29,7 +29,7 @@ def bisection_method(f, a, b, tol):
 
 #diver code
 z = bisection_method(f, 1.5, 2, 1e-6)
-print(z)
+print("Exact Root: ",z)
 c = f(z)
-print(c)
+print("Function Value: ",c)
 print(f"{c: .4f}")

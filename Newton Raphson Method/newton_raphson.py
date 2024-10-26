@@ -29,6 +29,6 @@ def newtonRaphson(f, derivF, x, tol ):
 
 # ----------for function x**3 - x**2 - 2-----
 z = newtonRaphson(f, derivF, 2, 1e-6)
-print(z)
+print("Exact Root: ", z)
 c = f(z)
 print(f"{c: .4f}")
