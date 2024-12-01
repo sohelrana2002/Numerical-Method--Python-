@@ -6,17 +6,19 @@ float cal_p(float p, int n){
 
     for (int i = 1; i < n; i++){
         temp = temp * (p - i);
-    }
+    } 
     return temp;
 }
 
 int cal_factorial(int n){
     int factorial = 1;
+    
     for (int i = 2; i <= n; i++){
         factorial *= i;
     }
     return factorial;
 }
+
 
 int main(){
     int n, i, j;
