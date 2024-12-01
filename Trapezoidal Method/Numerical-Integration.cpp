@@ -17,7 +17,8 @@ int main(){
         cin >> y[i];
     }
 
-    int firstIndex, lastIndex, total = 0;
+    int firstIndex, lastIndex; 
+    float total = 0;
 
     cout << "Enter initial index: ";
     cin >> firstIndex;
@@ -33,7 +34,7 @@ int main(){
         total = total + y[i];
     }
 
-    float result = (h / 2) * (m + 2*total);
+    float result = (h / 2) * (m + (2 * total));
 
     cout << "Numerical Integration: " << result;
 }
